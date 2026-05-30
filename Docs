@@ -1,0 +1,16 @@
+# Apresentação
+
+O sistema desenvolvido pelo grupo consiste em uma plataforma de gerenciamento para uma imobiliária, cujo objetivo é facilitar o controle de imóveis, clientes, corretores, visitas e propostas de aluguel ou venda.
+O sistema permitirá que funcionários da imobiliária realizem o cadastro e gerenciamento de imóveis, clientes e corretores, além do acompanhamento de propostas comerciais e agendamento de visitas.
+
+
+## Objetivos
+- Módulo de Cadastros Estruturados (CRUD)
+- Cadastro de imóveis para aluguel e venda;
+- Cadastro de clientes e corretores;
+- Registro e gerenciamento de visitas;
+- Controle de propostas de compra e aluguel;
+- Filtros de pesquisa por tipo, valor e status do imóvel;
+- Controle automático de status do imóvel após aprovação de proposta;
+- Controle de comissão de corretores.
+
