@@ -1,4 +1,4 @@
-# 📌Decisões Iniciais do Projeto
+# Decisões Iniciais do Projeto
 
 O armazenamento e a persistência dos dados do sistema (como os cadastros de utilizadores, imóveis, visitas e propostas) serão realizados utilizando ficheiros no formato `.json`. Esta escolha foi feita para garantir uma estrutura de dados organizada e de fácil manipulação para a leitura e gravação das informações durante a execução do programa.
 

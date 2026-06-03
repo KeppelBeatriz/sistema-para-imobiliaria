@@ -1,4 +1,4 @@
-# 🧩 Pilares da Orientação a Objetos no Sistema
+# Pilares da Orientação a Objetos no Sistema
 
 ### 1. Abstração
 No sistema, serão utilizadas classes abstratas para representar estruturas genéricas do domínio do problema, impedindo a instanciação direta de objetos genéricos.
@@ -51,12 +51,12 @@ O encapsulamento será aplicado através de atributos privados/protegidos, resgu
 ### 3. Herança
 A herança será aplicada para criar hierarquias onde classes mais específicas (filhas) aproveitam atributos e comportamentos de classes mais genéricas (pais), evitando a duplicação de código. No projeto, temos duas hierarquias estruturais principais:
 
-#### 👥 Hierarquia de Operadores do Sistema
+#### Hierarquia de Operadores do Sistema
 * **Superclasse (Abstrata):** `Usuario`
 * **Subclasses:** `Corretor` e `RH`
 * **Aplicação:** As classes filhas `Corretor` e `RH` herdam toda a base de identificação e autenticação (`Id`, `Nome`, `Cpf`, `Telefone`, `Email` e `Senha`) da superclasse. A partir dessa base herdada, cada subclasse expande seus próprios atributos específicos (ex: `Corretor` adiciona `Creci` e `TaxaComissao`; `RH` adiciona `NivelAcesso`).
 
-#### 🏠 Hierarquia de Imóveis
+#### Hierarquia de Imóveis
 * **Superclasse (Abstrata):** `Imovel`
 * **Subclasses:** `ImovelAluguel` e `ImovelVenda`
 * **Aplicação:** Todo imóvel catalogado compartilha dados padronizados (`Id`, `Tipo`, `Valor`, `Status`, `QtdQuartos`, `PossuiGaragem` e sua associação de Composição com `Endereco`). As subclasses implementam os detalhes de sua modalidade comercial: `ImovelAluguel` adiciona `TaxaCondominio` e `IptuMensal`, enquanto `ImovelVenda` adiciona `AceitaFinanciamento` e `ValorEscritura`.
