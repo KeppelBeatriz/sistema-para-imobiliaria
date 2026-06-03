@@ -71,4 +71,4 @@ O polimorfismo permitirá que um mesmo comportamento seja tratado de formas dife
     * `ImovelAluguel`: O método `CalcularValorTotal()` é reescrito para somar ao valor base do aluguel as taxas específicas de `TaxaCondominio` e `IptuMensal`.
     * `ImovelVenda`: O método `CalcularValorTotal()` é reescrito para somar ao valor base do imóvel os custos operacionais da transação (`ValorEscritura`).
 
-> 💡 **Aplicação Prática:** Quando a classe `GerenciadorImoveis` precisar listar os imóveis e exibir o preço final, ela chamará apenas o método `CalcularValorTotal()`. O próprio ecossistema da linguagem identificará em tempo de execução se deve aplicar a lógica de aluguel ou de venda, dependendo do objeto que estiver na memória.
+* **Aplicação:** Quando a classe `GerenciadorImoveis` precisar listar os imóveis e exibir o preço final, ela chamará apenas o método `CalcularValorTotal()`. O próprio ecossistema da linguagem identificará em tempo de execução se deve aplicar a lógica de aluguel ou de venda, dependendo do objeto que estiver na memória.
