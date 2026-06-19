@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{F1D6EB27-586C-48FA-84F3-D24246EFA94D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>domos</RootNamespace>
+    <AssemblyName>domos</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\Downloads\mysql.data.9.7.0.zip\lib\net48\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="data\ClienteData.cs" />
+    <Compile Include="data\CorretorData.cs" />
+    <Compile Include="data\ImovelData.cs" />
+    <Compile Include="data\PropostaData.cs" />
+    <Compile Include="data\RHData.cs" />
+    <Compile Include="data\VisitaData.cs" />
+    <Compile Include="db\db_imobiliaria.cs" />
+    <Compile Include="forms\FormCliente.cs" />
+    <Compile Include="forms\FormCliente.Designer.cs">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FormComissao.cs" />
+    <Compile Include="forms\FormComissao.Designer.cs">
+      <DependentUpon>FormComissao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FormCorretor.cs" />
+    <Compile Include="forms\FormCorretor.Designer.cs">
+      <DependentUpon>FormCorretor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FormImovel.cs" />
+    <Compile Include="forms\FormImovel.Designer.cs">
+      <DependentUpon>FormImovel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FormLogin.cs" />
+    <Compile Include="forms\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FormPrincipalCorretor.cs" />
+    <Compile Include="forms\FormPrincipalCorretor.Designer.cs">
+      <DependentUpon>FormPrincipalCorretor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FormPrincipalRH.cs" />
+    <Compile Include="forms\FormPrincipalRH.Designer.cs">
+      <DependentUpon>FormPrincipalRH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FormProposta.cs" />
+    <Compile Include="forms\FormProposta.Designer.cs">
+      <DependentUpon>FormProposta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FormRH.cs" />
+    <Compile Include="forms\FormRH.Designer.cs">
+      <DependentUpon>FormRH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FormVisita.cs" />
+    <Compile Include="forms\FormVisita.Designer.cs">
+      <DependentUpon>FormVisita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="models\Cliente.cs" />
+    <Compile Include="models\Corretor.cs" />
+    <Compile Include="models\Endereco.cs" />
+    <Compile Include="models\Imovel.cs" />
+    <Compile Include="models\ImovelAluguel.cs" />
+    <Compile Include="models\ImovelVenda.cs" />
+    <Compile Include="models\Proposta.cs" />
+    <Compile Include="models\RH.cs" />
+    <Compile Include="models\Usuario.cs" />
+    <Compile Include="models\Visita.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="models" />
+    <Folder Include="db" />
+    <Folder Include="data" />
+    <Folder Include="forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="forms\FormCliente.resx">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FormComissao.resx">
+      <DependentUpon>FormComissao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FormCorretor.resx">
+      <DependentUpon>FormCorretor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FormImovel.resx">
+      <DependentUpon>FormImovel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FormPrincipalCorretor.resx">
+      <DependentUpon>FormPrincipalCorretor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FormPrincipalRH.resx">
+      <DependentUpon>FormPrincipalRH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FormProposta.resx">
+      <DependentUpon>FormProposta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FormRH.resx">
+      <DependentUpon>FormRH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FormVisita.resx">
+      <DependentUpon>FormVisita.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,16 @@
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\obj\Debug\domos.csprojResolveAssemblyReference.cache
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\obj\Debug\domos.forms.FormCliente.resources
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\obj\Debug\domos.forms.FormCorretor.resources
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\obj\Debug\domos.forms.FormImovel.resources
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\obj\Debug\domos.forms.FormLogin.resources
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\obj\Debug\domos.forms.FormPrincipalCorretor.resources
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\obj\Debug\domos.forms.FormPrincipalRH.resources
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\obj\Debug\domos.csproj.GenerateResource.Cache
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\obj\Debug\domos.forms.FormVisita.resources
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\obj\Debug\domos.forms.FormComissao.resources
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\obj\Debug\domos.forms.FormProposta.resources
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\obj\Debug\domos.forms.FormRH.resources
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\bin\Debug\domos.exe
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\bin\Debug\domos.pdb
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\obj\Debug\domos.exe
+C:\Users\henri\OneDrive\Documentos\SharpDevelop Projects\domos\domos\obj\Debug\domos.pdb
