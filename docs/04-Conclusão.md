@@ -7,7 +7,7 @@ O armazenamento e a persistência dos dados do sistema (como os cadastros de uti
 
 ## Divisão Inicial de Tarefas
 
-### Pessoa 1 — Desenvolvimento Principal / Backend
+### 1. Desenvolvimento Principal / Backend
 **Responsáveis:** Vânia, Beatriz, Emanuelle, Esther e Rodrigo
 * Estrutura do sistema
 * Classes
@@ -19,14 +19,14 @@ O armazenamento e a persistência dos dados do sistema (como os cadastros de uti
 * Integração geral do projeto
 * Implementação de `JSON` e tratamento básico de erros (`try/catch`)
 
-### Pessoa 2 — Modelagem e UML
+### 2. Modelagem e UML
 **Responsáveis:** Esther e Beatriz
 * Diagrama de classes
 * Diagrama de fluxo
 * Organização da arquitetura do software
 * Auxílio na documentação técnica
 
-### Pessoa 3 — Documentação
+### 3. Documentação
 **Responsáveis:** Vânia, Beatriz e Esther
 * Geração do PDF final
 * Descrição detalhada do projeto
@@ -34,7 +34,7 @@ O armazenamento e a persistência dos dados do sistema (como os cadastros de uti
 * Organização visual do documento
 * Revisão textual e ortográfica
 
-### Pessoa 4 — GitHub + README
+### 4. GitHub + README
 **Responsável:** Rodrigo
 * Organização e estrutura do repositório Git
 * Escrita e formatação do ficheiro `README.md`
@@ -42,7 +42,7 @@ O armazenamento e a persistência dos dados do sistema (como os cadastros de uti
 * Padronização e organização dos *commits*
 * Auxílio na integração e *merge* dos ficheiros de código
 
-### Pessoa 5 — Testes + Apresentação
+### 5. Testes + Apresentação
 **Responsáveis:** Beatriz, Emanuelle, Esther e Rodrigo
 * Testar detalhadamente todas as funcionalidades
 * Encontrar bugs e exceções de código
