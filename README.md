@@ -1,11 +1,10 @@
-# Trabalho Prático 
+# DOMUS - Gestão Imobiliária
+
 `CURSO: Análise e Desenvolvimento de Sistemas`
 
 `DISCIPLINA: Programação Orientada a Objetos`
 
 `3º semestre/2026`
-
-# Sistema para imobiliária
 
 O projeto consiste no desenvolvimento de um Sistema de Gestão Imobiliária baseado no paradigma de Orientação a Objetos. O software tem como propósito governar, automatizar e centralizar as regras de negócio essenciais que tangem o fluxo operacional de locação e venda de ativos imobiliários.
 
@@ -48,14 +47,14 @@ O sistema é uma aplicação desktop desenvolvida em C# com Windows Forms, não 
 
 <ol>
 <li><a href="docs/01-Contexto.md"> Documentação de Contexto </a></li>
-<li><a href="docs/01-Modelagem.md"> Modelagem </a></li>
+<li><a href="docs/02-Modelagem.md"> Modelagem </a></li>
 <li><a href="docs/03-Aplicação.md"> Aplicação </a></li>
 <li><a href="docs/04-Conclusão.md"> Conclusão </a></li> 
 </ol>
 
 # Código
 
-* <a href="src/README.md">Código</a>
+* <a href="src">Código</a>
 
 # Apresentação
 
